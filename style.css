@@ -1,0 +1,51 @@
+html, body {
+    height: 100%
+}
+
+/*body {
+    font-size: 10px;
+}*/
+
+
+.total-center {
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+
+    -webkit-box-pack: center !important;
+    -webkit-justify-content: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important
+}
+
+
+.mycard {
+    width:15rem;
+    height:8rem;
+    float:left
+}
+
+a.card-block,
+a.card-block:hover {
+    text-decoration: none;
+    color: black
+}
+
+
+.max-1-line,
+.max-2-lines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.max-1-line {
+    -webkit-line-clamp: 1;
+}
+
+.max-2-lines {
+    -webkit-line-clamp: 2;
+}
+
